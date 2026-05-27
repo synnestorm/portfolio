@@ -20,7 +20,7 @@ span {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {
@@ -52,4 +52,19 @@ img {
   object-fit: cover;
   display: block;
   margin: 20px auto;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+img:hover {
+  filter: grayscale(0%);
+}
+
+.card-info {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 20px;
+  padding-left: 10px;
+  line-height: 1.2;
 }
