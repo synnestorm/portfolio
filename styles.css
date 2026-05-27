@@ -1,13 +1,22 @@
 body {
-  background-color: rgb(255, 255, 255);
+  /* background-image: url("assets/images/");
+  background-position: right 20%;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: hsl(217, 54%, 11%);
   margin: 0;
   padding: 0;
   max-width: 1920px;
+  font-family: "Playfair Display";
+  color: #acb0f2;
 }
 
 h1 {
-  font-size: 40px;
-  text-align: center;
+  font-size: 80px;
+}
+
+span {
+  display: block;
 }
 
 h2 {
@@ -23,5 +32,24 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 50px;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
 }
