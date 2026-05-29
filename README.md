@@ -1,2 +1,1 @@
-# portfolio
-Portfolio website that showcases my work!
+# Portfolio: synnestorm
