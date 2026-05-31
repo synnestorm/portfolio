@@ -60,28 +60,31 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 50px;
+  gap: 10px;
 }
 
 .card {
-  background-color: hsl(216, 50%, 16%);
-  width: 500px;
-  height: auto;
+  background-color: rgba(27, 30, 84, 0.7);
+  width: 400px;
+  height: 600px;
   border-radius: 20px;
   transition: 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 img {
   width: 100%;
-  max-width: 450px;
+  max-width: 350px;
   border-radius: 10px;
-  height: 400px;
+  height: 350px;
   object-fit: cover;
   display: block;
   margin: 20px auto;
-  filter: grayscale(100%);
+  filter: 
+  brightness(0.85)
+  saturate(0.9);
   transition: 0.5s;
 }
 
