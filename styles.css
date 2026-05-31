@@ -89,14 +89,35 @@ img {
 }
 
 img:hover {
-  filter: grayscale(0%);
+  filter:
+  brightness(1)
+  saturate(1);
 }
 
 .card-info {
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
   display: block;
   margin: 20px;
   padding-left: 10px;
   line-height: 1.2;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-family: "Cormorant Garamond";
+}
+
+.link-repo {
+  color: var(--link-color-repo);
+  text-decoration: none;
+  border-bottom: 1px solid var(--link-color-repo);
+}
+
+.link-demo {
+  color: var(--link-color-demo);
+  text-decoration: none;
+  border-bottom: 1px solid var(--link-color-demo);
 }
