@@ -4,17 +4,17 @@
 
 body {
   background:
-  radial-gradient(
-    circle at 20% 20%,
-    rgba(51,69,166,0.18),
-    transparent 35%
-  ),
-  radial-gradient(
-    circle at 80% 70%,
-    rgba(105,69,169,0.15),
-    transparent 35%
-  ),
-  var(--dark-blue-bg);
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(51, 69, 166, 0.18),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(105, 69, 169, 0.15),
+      transparent 35%
+    ),
+    var(--dark-blue-bg);
   margin: 0;
   padding: 0;
   max-width: 1920px;
@@ -42,6 +42,10 @@ h1 {
   font-size: clamp(60px, 8vw, 80px);
   margin-left: 30px;
   font-family: "Cormorant Garamond";
+}
+
+.hidden {
+  display: none;
 }
 
 .introduction {
@@ -92,16 +96,12 @@ img {
   object-fit: cover;
   display: block;
   margin: 20px auto;
-  filter: 
-  brightness(0.85)
-  saturate(0.9);
+  filter: brightness(0.85) saturate(0.9);
   transition: 0.5s;
 }
 
 img:hover {
-  filter:
-  brightness(1)
-  saturate(1);
+  filter: brightness(1) saturate(1);
 }
 
 .card-info {
