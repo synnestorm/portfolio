@@ -50,10 +50,10 @@ h1 {
 
 .introduction {
   font-size: 20px;
-  margin-left: 35px;
-  margin-right: 25px;
   position: relative;
   bottom: 30px;
+  margin-left: 35px;
+  margin-right: 25px;
 }
 
 span {
@@ -130,4 +130,33 @@ img:hover {
   color: var(--link-color-demo);
   text-decoration: none;
   border-bottom: 1px solid var(--link-color-demo);
+}
+
+.course-list {
+  list-style-type: circle;
+  justify-content: left;
+  display: block;
+  margin-left: 15px;
+}
+
+.about-me,
+.profile-me {
+  width: 100%;
+  max-width: 500px;
+}
+
+.download-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.links {
+  color: var(--links-color);
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 100px;
 }
