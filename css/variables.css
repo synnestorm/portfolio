@@ -1,5 +1,19 @@
 /* Variables */
 
 :root {
-  --bg-color: #161615;
+  --dark-blue-bg: #141640;
+
+  /* I want to possible use these colours:
+  --royal-blue: #3345A6;
+  --light-blue: #2B3A8C;
+  --dark-red: #731F2E;
+  --royal-purple: #6945A9;
+  */
+
+  --heading-color: #F3F5FF;
+  --text-color: #C8D0F0;
+
+  --links-color: #ABC0F2;
+  --link-color-repo: #8DA8FF;
+  --link-color-demo: #C09CFF;
 }
