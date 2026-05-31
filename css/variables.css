@@ -10,10 +10,13 @@
   --royal-purple: #6945A9;
   */
 
-  --heading-color: #F3F5FF;
-  --text-color: #C8D0F0;
+  --heading-color: #f3f5ff;
+  --text-color: #c8d0f0;
 
-  --links-color: #ABC0F2;
-  --link-color-repo: #8DA8FF;
-  --link-color-demo: #C09CFF;
+  --links-color: #abc0f2;
+  --link-color-repo: #8da8ff;
+  --link-color-demo: #c09cff;
+
+  --font-one: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-two: "Manrope", Arial, serif;
 }
