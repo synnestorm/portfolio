@@ -4,17 +4,17 @@
 
 body {
   background:
-  radial-gradient(
-    circle at 20% 20%,
-    rgba(51,69,166,0.18),
-    transparent 35%
-  ),
-  radial-gradient(
-    circle at 80% 70%,
-    rgba(105,69,169,0.15),
-    transparent 35%
-  ),
-  var(--dark-blue-bg);
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(51, 69, 166, 0.18),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(105, 69, 169, 0.15),
+      transparent 35%
+    ),
+    var(--dark-blue-bg);
   margin: 0;
   padding: 0;
   max-width: 1920px;
@@ -44,12 +44,16 @@ h1 {
   font-family: "Cormorant Garamond";
 }
 
+.hidden {
+  display: none;
+}
+
 .introduction {
   font-size: 20px;
-  margin-left: 35px;
-  margin-right: 25px;
   position: relative;
   bottom: 30px;
+  margin-left: 35px;
+  margin-right: 25px;
 }
 
 span {
@@ -92,16 +96,12 @@ img {
   object-fit: cover;
   display: block;
   margin: 20px auto;
-  filter: 
-  brightness(0.85)
-  saturate(0.9);
+  filter: brightness(0.85) saturate(0.9);
   transition: 0.5s;
 }
 
 img:hover {
-  filter:
-  brightness(1)
-  saturate(1);
+  filter: brightness(1) saturate(1);
 }
 
 .card-info {
@@ -130,4 +130,33 @@ img:hover {
   color: var(--link-color-demo);
   text-decoration: none;
   border-bottom: 1px solid var(--link-color-demo);
+}
+
+.course-list {
+  list-style-type: circle;
+  justify-content: left;
+  display: block;
+  margin-left: 15px;
+}
+
+.about-me,
+.profile-me {
+  width: 100%;
+  max-width: 500px;
+}
+
+.download-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.links {
+  color: var(--links-color);
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 100px;
 }
