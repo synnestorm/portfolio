@@ -150,11 +150,13 @@ img:hover {
   justify-content: space-between;
   gap: 20px;
   font-size: 20px;
+  font-family: var(--font-one);
 }
 
-.links {
-  color: var(--links-color);
-  text-decoration: none;
+img.profile-synne {
+  border-radius: 200px;
+  max-width: 400px;
+  height: 400px;
 }
 
 footer {
