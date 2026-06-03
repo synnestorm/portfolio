@@ -18,7 +18,7 @@ body {
   margin: 0;
   padding: 0;
   max-width: 1920px;
-  font-family: "Manrope";
+  font-family: var(--font-two);
   color: var(--text-color);
   overflow-x: hidden;
 }
@@ -33,9 +33,9 @@ ul {
 
 ul li a {
   display: block;
-  padding: 14px 20px;
+  padding: 14px var(--size-xsmall);
   text-decoration: none;
-  font-size: 20px;
+  font-size: var(--font-size-s);
 }
 
 a {
@@ -46,8 +46,8 @@ a {
 h1 {
   color: var(--heading-color);
   font-size: clamp(60px, 8vw, 80px);
-  margin-left: 30px;
-  font-family: "Cormorant Garamond";
+  margin-left: var(--size-small);
+  font-family: var(--font-one);
 }
 
 /* front page and my projects */
@@ -57,11 +57,11 @@ h1 {
 }
 
 .introduction {
-  font-size: 20px;
+  font-size: var(--font-size-s);
   position: relative;
-  bottom: 30px;
-  margin-left: 35px;
-  margin-right: 25px;
+  bottom: var(--size-small);
+  margin-left: var(--size-small);
+  margin-right: var(--size-xsmall);
 }
 
 span {
@@ -69,7 +69,7 @@ span {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: var(--font-size-s);
 }
 
 p {
@@ -83,17 +83,17 @@ p {
   justify-content: space-around;
   align-items: center;
   gap: 10px;
-  margin-bottom: 0 50px;
+  margin-bottom: 0 var(--size-medium);
 }
 
 .card {
   background-color: rgba(27, 30, 84, 0.7);
-  width: 400px;
+  width: var(--size-xxlarge);
   height: 450px;
   border-radius: 20px;
   transition: 0.5s;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  margin: 20px 0;
+  margin: var(--size-xsmall) 0;
 }
 
 img {
@@ -103,7 +103,7 @@ img {
   height: 200px;
   object-fit: cover;
   display: block;
-  margin: 20px auto;
+  margin: var(--size-xsmall) auto;
   filter: brightness(0.85) saturate(0.9);
   transition: 0.5s;
 }
@@ -116,7 +116,7 @@ img:hover {
   width: 100%;
   max-width: 350px;
   display: block;
-  margin: 20px;
+  margin: var(--size-xsmall);
   padding-left: 10px;
   line-height: 1.2;
 }
@@ -124,8 +124,8 @@ img:hover {
 .links-container {
   display: flex;
   justify-content: space-between;
-  font-size: 25px;
-  font-family: "Cormorant Garamond";
+  font-size: var(--font-size-m);
+  font-family: var(--font-one);
 }
 
 .link-repo {
@@ -146,7 +146,7 @@ img:hover {
   list-style-type: circle;
   justify-content: left;
   display: block;
-  margin-left: 15px;
+  margin-left: var(--size-xsmall);
 }
 
 .container-about {
@@ -160,40 +160,39 @@ img:hover {
 }
 
 .about-me p {
-  margin: 30px;
+  margin: var(--size-small);
 }
 
 .download-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 500px;
-  font-size: 20px;
+  font-size: var(--font-size-s);
   font-family: var(--font-one);
-  padding: 25px;
+  padding: var(--size-small);
 }
 
 img.profile-synne {
   border-radius: 200px;
-  max-width: 400px;
-  height: 400px;
+  max-width: var(--size-xxlarge);
+  height: var(--size-xxlarge);
 }
 
 footer {
-  margin-top: 150px;
+  margin-top: var(--size-xlarge);
 }
 
 .socials {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px;
-  padding-bottom: 20px;
+  gap: var(--size-small);
+  padding-bottom: var(--size-xsmall);
 }
 
 .fa-solid,
 .fa-brands {
-  font-size: 25px;
+  font-size: var(--font-size-m);
 }
 
 /* media query */
@@ -201,9 +200,9 @@ footer {
 @media only screen and (min-width: 1800px) {
   h1,
   .introduction {
-    margin-left: 100px;
+    margin-left: var(--size-large);
   }
   .container-about {
-    margin-top: 150px;
+    margin-top: var(--size-xlarge);
   }
 }
