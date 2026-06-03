@@ -1,6 +1,7 @@
 const projectsPage = document.getElementById("projects-page");
 const aboutPage = document.getElementById("about-page");
 const introduction = document.querySelector(".introduction");
+const hero = document.querySelector(".hero");
 
 function router() {
   const currentHash = window.location.hash || "#projects";
@@ -8,10 +9,12 @@ function router() {
     projectsPage.classList.add("hidden");
     aboutPage.classList.remove("hidden");
     introduction.classList.add("hidden");
+    hero.classList.add("hidden");
   } else {
     projectsPage.classList.remove("hidden");
     aboutPage.classList.add("hidden");
     introduction.classList.remove("hidden");
+    hero.classList.remove("hidden");
   }
 }
 
