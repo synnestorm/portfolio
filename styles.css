@@ -60,6 +60,10 @@ span {
   display: block;
 }
 
+.small-heading {
+  margin-left: 35px;
+}
+
 h2 {
   font-size: 20px;
 }
@@ -139,18 +143,28 @@ img:hover {
   margin-left: 15px;
 }
 
+.container-about {
+  justify-content: center;
+}
+
 .about-me,
 .profile-me {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
+}
+
+.about-me p {
+  margin: 30px;
 }
 
 .download-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
+  max-width: 500px;
   font-size: 20px;
   font-family: var(--font-one);
+  padding: 25px;
 }
 
 img.profile-synne {
@@ -161,4 +175,10 @@ img.profile-synne {
 
 footer {
   margin-top: 100px;
+}
+
+@media only screen and (min-width: 1010px) {
+  .container-about {
+    justify-content: space-between;
+  }
 }
