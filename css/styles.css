@@ -31,10 +31,14 @@ ul {
 
 ul li a {
   display: block;
-  color: var(--links-color);
   padding: 14px 20px;
   text-decoration: none;
   font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--links-color);
 }
 
 h1 {
@@ -150,7 +154,7 @@ img:hover {
 .about-me,
 .profile-me {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .about-me p {
@@ -174,22 +178,28 @@ img.profile-synne {
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
-@media only screen and (min-width: 1010px) {
-  .container-about {
-    justify-content: space-around;
-  }
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+.fa-solid,
+.fa-brands {
+  font-size: 25px;
 }
 
 @media only screen and (min-width: 1800px) {
   h1,
-  .introduction,
-  .small-heading {
+  .introduction {
     margin-left: 100px;
   }
   .container-about {
-    width: 80%;
+    margin-top: 150px;
   }
 }
