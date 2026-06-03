@@ -13,7 +13,13 @@
   --font-one: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --font-two: "Manrope", Arial, serif;
 
-  --size-small: 20px;
+  --font-size-s: 20px;
+  --font-size-m: 25px;
+
+  --size-xsmall: 20px;
+  --size-small: 30px;
   --size-medium: 50px;
   --size-large: 100px;
+  --size-xlarge: 150px;
+  --size-xxlarge: 400px;
 }
