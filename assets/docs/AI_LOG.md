@@ -9,3 +9,8 @@ When researching different methods and approaches I've used AI as a way to help 
 All code included in this project was written entirely by me. AI tools were not used to generate code but rather to support my understanding and problem solving process.
 
 ### Log may - june 2026
+
+- Used ChatGPT to help understand how clamp() Works: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp
+- Used ChatGPT to help understand how to make radial-gradient work: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/radial-gradient
+- Used Gemini to help understand more about SPA (single page Application), and how that would be possible without a server
+- Asked ChatGPT to help interpret the video presentation part of the brief; what the requirements are.

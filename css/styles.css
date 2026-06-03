@@ -7,12 +7,12 @@ body {
     radial-gradient(
       circle at 20% 20%,
       rgba(51, 69, 166, 0.18),
-      transparent 60%
+      transparent 35%
     ),
     radial-gradient(
       circle at 80% 70%,
       rgba(105, 69, 169, 0.15),
-      transparent 60%
+      transparent 35%
     ),
     var(--dark-blue-bg);
   margin: 0;
