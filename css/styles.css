@@ -23,6 +23,8 @@ body {
   overflow-x: hidden;
 }
 
+/* navbar */
+
 ul {
   list-style: none;
   display: flex;
@@ -48,6 +50,8 @@ h1 {
   font-family: "Cormorant Garamond";
 }
 
+/* front page and my projects */
+
 .hidden {
   display: none;
 }
@@ -62,10 +66,6 @@ h1 {
 
 span {
   display: block;
-}
-
-.small-heading {
-  margin-left: 35px;
 }
 
 h2 {
@@ -140,6 +140,8 @@ img:hover {
   border-bottom: 1px solid var(--link-color-demo);
 }
 
+/* about page */
+
 .course-list {
   list-style-type: circle;
   justify-content: left;
@@ -193,6 +195,8 @@ footer {
 .fa-brands {
   font-size: 25px;
 }
+
+/* media query */
 
 @media only screen and (min-width: 1800px) {
   h1,
