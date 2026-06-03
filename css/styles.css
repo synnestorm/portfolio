@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(51, 69, 166, 0.18),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(105, 69, 169, 0.15),
+      transparent 35%
+    ),
+    var(--dark-blue-bg);
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+  font-family: "Manrope";
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+
+ul li a {
+  display: block;
+  color: var(--links-color);
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h1 {
+  color: var(--heading-color);
+  font-size: clamp(60px, 8vw, 80px);
+  margin-left: 30px;
+  font-family: "Cormorant Garamond";
+}
+
+.hidden {
+  display: none;
+}
+
+.introduction {
+  font-size: 20px;
+  position: relative;
+  bottom: 30px;
+  margin-left: 35px;
+  margin-right: 25px;
+}
+
+span {
+  display: block;
+}
+
+.small-heading {
+  margin-left: 35px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0 50px;
+}
+
+.card {
+  background-color: rgba(27, 30, 84, 0.7);
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  transition: 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 20px 0;
+}
+
+img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+  filter: brightness(0.85) saturate(0.9);
+  transition: 0.5s;
+}
+
+img:hover {
+  filter: brightness(1) saturate(1);
+}
+
+.card-info {
+  width: 100%;
+  max-width: 350px;
+  display: block;
+  margin: 20px;
+  padding-left: 10px;
+  line-height: 1.2;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-family: "Cormorant Garamond";
+}
+
+.link-repo {
+  color: var(--link-color-repo);
+  text-decoration: none;
+  border-bottom: 1px solid var(--link-color-repo);
+}
+
+.link-demo {
+  color: var(--link-color-demo);
+  text-decoration: none;
+  border-bottom: 1px solid var(--link-color-demo);
+}
+
+.course-list {
+  list-style-type: circle;
+  justify-content: left;
+  display: block;
+  margin-left: 15px;
+}
+
+.container-about {
+  justify-content: center;
+}
+
+.about-me,
+.profile-me {
+  width: 100%;
+  max-width: 600px;
+}
+
+.about-me p {
+  margin: 30px;
+}
+
+.download-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 500px;
+  font-size: 20px;
+  font-family: var(--font-one);
+  padding: 25px;
+}
+
+img.profile-synne {
+  border-radius: 200px;
+  max-width: 400px;
+  height: 400px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+@media only screen and (min-width: 1010px) {
+  .container-about {
+    justify-content: space-between;
+  }
+}
