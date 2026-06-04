@@ -204,6 +204,12 @@ footer {
 .fa-solid,
 .fa-brands {
   font-size: var(--font-size-m);
+  transition: 0.3s;
+}
+
+.fa-solid:hover,
+.fa-brands:hover {
+  color: var(--link-color-demo);
 }
 
 /* media query */
