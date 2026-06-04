@@ -43,14 +43,25 @@ a {
   color: var(--links-color);
 }
 
+a.nav-links {
+  background: linear-gradient(0deg, var(--links-color), var(--links-color))
+    no-repeat bottom center / 0 1px;
+  transition: background-size 350ms;
+}
+
+a.nav-links:where(:hover, :focus-visible) {
+  background-size: 100% 1px;
+  background-position-x: left;
+}
+
+/* front page and my projects */
+
 h1 {
   color: var(--heading-color);
   font-size: clamp(60px, 8vw, 80px);
   margin-left: var(--size-small);
   font-family: var(--font-one);
 }
-
-/* front page and my projects */
 
 .hidden {
   display: none;
